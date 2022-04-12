@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
+    z-index: 50;
 }
 .position{
     display: flex;
@@ -28,7 +29,7 @@
     flex-wrap: nowrap;
     width: 25%;
     padding: 15px ;
-    margin-left: 100px;
+    justify-content: center;
     
 }
 .logo img{
@@ -59,8 +60,11 @@
     align-items: center;
     flex-direction: row;
     margin-left: 30px;
+    background-color: white;
     
-    
+}
+.searchBar:hover{
+    border-bottom: solid 3px burlywood;
 }
 .searchBar img{
     width: 15px;
@@ -83,4 +87,85 @@
     display: flex;
     align-items: center;
     margin-left: 10px;
+    
+}
+.headerBurger{
+    display: none;
+}
+.socialBut1{
+    display: none;
+}
+@media (max-width:768px){
+    .headerBurger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 2;
+        position: absolute;
+        right: 40px;
+        top: 30px;
+    }
+    .headerBurger span{
+        position: absolute;
+        background-color:burlywood;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+    .headerBurger::before,
+    .headerBurger::after{
+        content: '';
+        background-color:burlywood;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+    .headerBurger::before{
+        top: 0;
+    }
+    .headerBurger::after{
+        bottom: 0;
+    }
+    .headerMenu{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        padding: 70px;
+        transform: translate(+100%);
+    }
+    .headerMenu ul{
+        display: block;
+    }
+    .headerMenu ul li{
+     margin: 0px 0px 30px 0px;
+    }
+    .headerMenu.active {
+        transform: translate(0);
+    }
+    .header{
+        margin: 0px 30px 0px 30px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .searchBar{
+        width:100% ;
+        justify-content: center;
+        
+    }
+    .position{
+        width: 100%;
+    }
+    .socialBut{
+        display: none;
+        
+    }
+    .socialBut1{
+        display: block;
+    }
 }
