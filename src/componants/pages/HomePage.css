@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Playfair Display', serif;
     border: none;
 }
 .preview{
@@ -35,6 +36,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 20px;
+    
 }
 .postImg{
     width: 100%;
@@ -69,4 +72,21 @@
 }
 .postText:hover{
  color: burlywood;
+}
+.pPosition{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+
+}
+.postsGrid{
+width: 48%;
+}
+.line{
+    content:"";
+    width: 100%;
+    margin: 0px 5px 0px 5px;
+    background-color: grey;
+    font-size: 1px;
 }
