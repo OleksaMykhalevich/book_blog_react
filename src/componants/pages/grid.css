@@ -62,8 +62,8 @@
     }
 
     .col-sm-6 {
-        flex: 0 0 48%;
-        max-width: 48%;
+        flex: 0 0 45%;
+        max-width: 45%;
     }
 
     .col-sm-8 {
@@ -102,8 +102,8 @@
     }
 
     .col-md-6 {
-        flex: 0 0 48%;
-        max-width: 48%;
+        flex: 0 0 45%;
+        max-width: 45%;
     }
 
     .col-md-7 {

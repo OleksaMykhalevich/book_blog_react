@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+.aboutPreview{
+    background-image: url(https://static.wixstatic.com/media/ad420a_a2e071ce60fe498ea50d1a8d332a4c4b~mv2.jpg/v1/fill/w_1899,h_633,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ad420a_a2e071ce60fe498ea50d1a8d332a4c4b~mv2.jpg);
+}
+.aboutImg{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 506px;
+}
+.aboutImg img{
+max-width: 335px;
+max-height: 385;
+
+margin-top:300px
+}
+.aboutContent{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+.aboutTitle{
+    font-size: 51px;
+}
+.aboutText{
+    margin-top: 100px;
+    line-height: 2.1em;
+    text-align: center;
+    font-size: 18px;
+    max-width: 800px;
+    min-width: 100px;
+}

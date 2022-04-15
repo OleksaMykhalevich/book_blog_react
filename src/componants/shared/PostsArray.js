@@ -6,6 +6,8 @@ export const postsArray = [
     text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
     image:
       "https://static.wixstatic.com/media/ad420a_1f0de414af0e48808a067779e92736ed~mv2.jpg/v1/fill/w_568,h_851,fp_0.50_0.50,q_90,enc_auto/ad420a_1f0de414af0e48808a067779e92736ed~mv2.jpg",
+    liked: 24,
+    status: "old",
   },
   {
     id: 2,
@@ -14,6 +16,8 @@ export const postsArray = [
     text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
     image:
       "https://static.wixstatic.com/media/84770f_d9b23fce65354d53a8866f9b8da0dcf1~mv2.jpg/v1/fill/w_568,h_833,fp_0.50_0.50,q_90,enc_auto/84770f_d9b23fce65354d53a8866f9b8da0dcf1~mv2.jpg",
+    liked: 84,
+    status: "old",
   },
   {
     id: 3,
@@ -22,6 +26,8 @@ export const postsArray = [
     text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
     image:
       "https://static.wixstatic.com/media/84770f_453c55f05b8c451fa0455d6c792666bd~mv2.jpg/v1/fill/w_568,h_711,fp_0.50_0.50,q_90,enc_auto/84770f_453c55f05b8c451fa0455d6c792666bd~mv2.webp",
+    liked: 22,
+    status: "new",
   },
   {
     id: 4,
@@ -30,6 +36,8 @@ export const postsArray = [
     text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
     image:
       "https://static.wixstatic.com/media/ad420a_b81dce182a684673a08d4c1a529845b2~mv2.jpg/v1/fill/w_568,h_851,fp_0.50_0.50,q_90,enc_auto/ad420a_b81dce182a684673a08d4c1a529845b2~mv2.webp",
+    liked: 18,
+    status: "new",
   },
   {
     id: 5,
@@ -38,6 +46,8 @@ export const postsArray = [
     text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
     image:
       "https://static.wixstatic.com/media/84770f_c32940b6202c4d96a182a0d57868e04e~mv2.jpg/v1/fill/w_568,h_851,fp_0.50_0.50,q_90,enc_auto/84770f_c32940b6202c4d96a182a0d57868e04e~mv2.webp",
+    liked: 2,
+    status: "new",
   },
   {
     id: 6,
@@ -46,5 +56,7 @@ export const postsArray = [
     text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
     image:
       "https://static.wixstatic.com/media/84770f_dd1192028d8842c789ebfa9bdaa66937~mv2.jpg/v1/fill/w_568,h_376,fp_0.50_0.50,q_90,enc_auto/84770f_dd1192028d8842c789ebfa9bdaa66937~mv2.webp",
+    liked: 44,
+    status: "old",
   },
 ];

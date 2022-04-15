@@ -5,6 +5,9 @@ import twiter from "../Header/imgHeader/twiter.webp";
 import logo from "../Header/imgHeader/logo.jpg";
 import lupa from "../Header/imgHeader/lupa.png";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
+
+const setNavLinkClass = ({ isActive }) => (isActive ? "nav-link" : "menu-link");
 
 export const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
@@ -19,8 +22,16 @@ export const Header = () => {
         <div className="position">
           <div className={menuActive ? "headerMenu active" : "headerMenu"}>
             <ul>
-              <li>Home</li>
-              <li>About</li>
+              <li>
+                <NavLink className={setNavLinkClass} to="/">
+                  Home
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className={setNavLinkClass} to="/about">
+                  About
+                </NavLink>
+              </li>
               <li>Subscribe</li>
               <div className="socialBut1">
                 <img src={twiter}></img>

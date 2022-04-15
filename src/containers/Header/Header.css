@@ -1,10 +1,10 @@
 
 *{
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 .header{
-    padding-top: 20px;
+    
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -105,6 +105,7 @@
         position: absolute;
         right: 40px;
         top: 30px;
+        z-index: 51;
     }
     .headerBurger span{
         position: absolute;
@@ -137,6 +138,7 @@
         background-color: white;
         padding: 70px;
         transform: translate(+100%);
+        z-index: 50;
     }
     .headerMenu ul{
         display: block;
@@ -168,4 +170,15 @@
     .socialBut1{
         display: block;
     }
+}
+.nav-link {
+    color: burlywood;
+    text-decoration: none;
+}
+.menu-link  {
+    color: black;
+    text-decoration: none;
+}
+.menu-link:hover{
+    color: burlywood;
 }
