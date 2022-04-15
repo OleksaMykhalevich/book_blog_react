@@ -4,7 +4,7 @@ import { Buttons } from "../elements/Buttons";
 import { PostsBlog } from "../elements/Posts";
 import { postsArray } from "../shared/PostsArray";
 import { Grid } from "@mui/material";
-import { PostsPosition } from "../elements/Posts";
+
 import "../pages/grid.css";
 
 export const HomePage = ({ changeLikeState, likeProductsState, status }) => {

@@ -15,7 +15,7 @@ export const Header = () => {
     <>
       <div className="header">
         <div className="logo">
-          <img src={logo}></img>
+          <img alt="logo" src={logo}></img>
           <h2>T.B.L</h2>
         </div>
 
@@ -34,18 +34,18 @@ export const Header = () => {
               </li>
               <li>Subscribe</li>
               <div className="socialBut1">
-                <img src={twiter}></img>
-                <img src={facebook}></img>
+                <img alt="twiter" src={twiter}></img>
+                <img alt="facebook" src={facebook}></img>
               </div>
             </ul>
           </div>
           <div className="searchBar">
-            <img src={lupa} />
+            <img alt="lupa" src={lupa} />
             <input type="search" placeholder="Search.."></input>
           </div>
           <div className="socialBut">
-            <img src={twiter}></img>
-            <img src={facebook}></img>
+            <img alt="twiter" src={twiter}></img>
+            <img alt="facebook" src={facebook}></img>
           </div>
           <div
             className="headerBurger"

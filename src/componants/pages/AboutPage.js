@@ -8,7 +8,7 @@ export const AboutPage = () => {
       <div className="aboutPage">
         <div className="aboutPreview">
           <div className="aboutImg">
-            <img src={aboutWom}></img>
+            <img alt="aboutWom" src={aboutWom}></img>
           </div>
         </div>
         <div className="aboutContent">

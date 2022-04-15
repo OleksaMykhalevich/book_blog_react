@@ -20,8 +20,8 @@ export const Footer = () => {
                 <a href="https://www.instagram.com/mykhalevich_o/">Oleksiyyy</a>
               </p>
               <div>
-                <img src={twiter}></img>
-                <img src={facebook}></img>
+                <img alt="twiter" src={twiter}></img>
+                <img alt="facebook" src={facebook}></img>
               </div>
             </div>
           </div>

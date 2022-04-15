@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import React from "react";
-import post1 from "../img/1post.webp";
+
 import avatar from "../img/завантаження.jpg";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
@@ -18,9 +18,9 @@ export const PostsBlog = ({
   return (
     <>
       <div className="post ">
-        <img className="postImg" src={image} />
+        <img className="postImg" alt="img" src={image} />
         <div className="postContent">
-          <img className="avatar" src={avatar} />
+          <img className="avatar" alt="avatar" src={avatar} />
           <p>
             {name}
             <br />
