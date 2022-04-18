@@ -2,6 +2,7 @@ export const postsArray = [
   {
     id: 1,
     name: "Admin",
+    title: "How_reading_changes_your_perspective",
     titles: "How reading changes your perspective",
     text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
     image:
@@ -12,6 +13,7 @@ export const postsArray = [
   {
     id: 2,
     name: "Admin",
+    title: "The_art_of_writing",
     titles: "The art of writing",
     text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
     image:
@@ -22,6 +24,7 @@ export const postsArray = [
   {
     id: 3,
     name: "Admin",
+    title: "You_want_your_child_to_read_these_books",
     titles: "You want your child to read these books",
     text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
     image:
@@ -32,6 +35,7 @@ export const postsArray = [
   {
     id: 4,
     name: "Admin",
+    title: "“The_Traitor’s_Daughter”",
     titles: "“The Traitor’s Daughter”",
     text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
     image:
@@ -42,6 +46,7 @@ export const postsArray = [
   {
     id: 5,
     name: "Admin",
+    title: "“must_read",
     titles: "8 must-read books",
     text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
     image:
@@ -52,6 +57,7 @@ export const postsArray = [
   {
     id: 6,
     name: "Admin",
+    title: "My_new_digital_reading_habits",
     titles: "My new digital reading habits",
     text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
     image:

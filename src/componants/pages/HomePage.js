@@ -33,7 +33,7 @@ export const HomePage = ({ changeLikeState, likeProductsState, status }) => {
           <Buttons postsFilter={postsFilter} />
           <div className="pPosition">
             {filtered.map(
-              ({ id, name, titles, image, text, liked, status }) => (
+              ({ id, name, title, titles, image, text, liked, status }) => (
                 <Grid
                   className="postsGrid col-xs-12 col-md-6 col-sm-6  "
                   item
@@ -53,6 +53,7 @@ export const HomePage = ({ changeLikeState, likeProductsState, status }) => {
                     image={image}
                     text={text}
                     liked={liked}
+                    title={title}
                   />
                 </Grid>
               )

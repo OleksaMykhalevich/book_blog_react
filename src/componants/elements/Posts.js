@@ -1,13 +1,20 @@
-import { Button } from "@mui/material";
 import React from "react";
-
+import { NavLink } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { Button } from "@mui/material";
 import avatar from "../img/завантаження.jpg";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import { postsArray } from "../shared/PostsArray";
+import { setCurrentPost } from "../../redux/Posts/reducer";
+import { useNavigate } from "react-router-dom";
+
+const setNavLinkClass = ({ isActive }) => (isActive ? "nav-link" : "menu-link");
 
 export const PostsBlog = ({
   id,
   name,
+  title,
   titles,
   image,
   text,
@@ -15,9 +22,17 @@ export const PostsBlog = ({
   changeLikeState,
   isLiked,
 }) => {
+  const history = useNavigate();
+  const dispatch = useDispatch();
+
+  const handleClick = () => {
+    dispatch(setCurrentPost(postsArray));
+    history(`/the-book-lover/${title}`);
+  };
+
   return (
     <>
-      <div className="post ">
+      <div className="post " onClick={handleClick}>
         <img className="postImg" alt="img" src={image} />
         <div className="postContent">
           <img className="avatar" alt="avatar" src={avatar} />

@@ -9,7 +9,7 @@ function App() {
     1: false,
     2: false,
   });
-  console.log(likeProductsState);
+
   const changeLikeState = (id) => {
     setLikeProductsState((prevState) => ({
       ...prevState,
