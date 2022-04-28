@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "./HomePage.css";
 import { Buttons } from "../elements/Buttons";
-import { PostsBlog } from "../elements/Posts";
+import PostsBlog from "../elements/Posts";
 import { postsArray } from "../shared/PostsArray";
 import { Grid } from "@mui/material";
 
 import "../pages/grid.css";
 
-export const HomePage = ({ changeLikeState, likeProductsState, status }) => {
+export const HomePage = ({ status }) => {
   const [filtered, setFiltered] = useState(postsArray);
 
   const postsFilter = (status) => {
@@ -45,8 +45,6 @@ export const HomePage = ({ changeLikeState, likeProductsState, status }) => {
                   <PostsBlog
                     postsFilter={postsFilter}
                     status={status}
-                    changeLikeState={changeLikeState}
-                    isLiked={likeProductsState[id]}
                     id={id}
                     name={name}
                     titles={titles}

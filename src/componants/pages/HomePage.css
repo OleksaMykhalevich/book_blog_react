@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Akshar', sans-serif;
     border: none;
 }
 .preview{
@@ -34,12 +34,16 @@
     font-size:15px ;
 }
 .post{
-    border: solid 1px grey;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 20px;
     
+    
+}
+.postItem{
+    border: solid 1px grey;
+    margin-top: 20px;
 }
 .postImg{
     width: 100%;
