@@ -9,9 +9,6 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import { Button } from "@mui/material";
 import { connect } from "react-redux";
-import { Grid } from "@mui/material";
-
-import { postsArray } from "../shared/PostsArray";
 
 const PostsPage = ({ removeLike, addLike, isLiked = false }) => {
   const post = useSelector((state) => state.post.currentPost);
@@ -26,7 +23,7 @@ const PostsPage = ({ removeLike, addLike, isLiked = false }) => {
       <div className="postPage">
         <div className="postPagePosition">
           <div className="postAvtor">
-            <img className="avatar" src={avatar} />
+            <img alt="/" className="avatar" src={avatar} />
             <p className="">{post.name} Dec 9, 2021 1 min read</p>
           </div>
           <h1>{post.titles}</h1>
@@ -36,7 +33,7 @@ const PostsPage = ({ removeLike, addLike, isLiked = false }) => {
             reading.
           </p>
         </div>
-        <img className="openPagePostImg" src={post.image}></img>
+        <img alt="/" className="openPagePostImg" src={post.image}></img>
         <p className="openPostText">{post.openPostText1}</p>
         <p className="openPostText1">{post.openPostText2}</p>
         <p className="openPostText">{post.openPostText3}</p>
@@ -46,8 +43,8 @@ const PostsPage = ({ removeLike, addLike, isLiked = false }) => {
       </div>
       <div className="openPostSocial">
         <p className="line">-</p>
-        <img src={twiter} />
-        <img src={facebook} />
+        <img alt="/" src={twiter} />
+        <img alt="/" src={facebook} />
         <p className="line">-</p>
       </div>
       <div className="reactionButt1">

@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { Button } from "@mui/material";
 import avatar from "../img/завантаження.jpg";
@@ -10,8 +9,6 @@ import { setCurrentPost } from "../../redux/Posts/reducer";
 import { useNavigate } from "react-router-dom";
 import { connect } from "react-redux";
 
-const setNavLinkClass = ({ isActive }) => (isActive ? "nav-link" : "menu-link");
-
 const PostsBlog = ({
   id,
   name,
@@ -19,7 +16,6 @@ const PostsBlog = ({
   titles,
   image,
   text,
-  liked,
   removeLike,
   addLike,
   isLiked = false,
