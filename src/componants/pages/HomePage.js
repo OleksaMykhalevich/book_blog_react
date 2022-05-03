@@ -43,7 +43,7 @@ export const HomePage = ({ status }) => {
                   key={id}
                 >
                   <PostsBlog
-                    postsFilter={postsFilter}
+                    // postsFilter={postsFilter}
                     status={status}
                     id={id}
                     name={name}

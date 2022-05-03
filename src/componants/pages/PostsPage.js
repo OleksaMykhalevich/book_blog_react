@@ -9,6 +9,9 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import { Button } from "@mui/material";
 import { connect } from "react-redux";
+import { Grid } from "@mui/material";
+
+import { postsArray } from "../shared/PostsArray";
 
 const PostsPage = ({ removeLike, addLike, isLiked = false }) => {
   const post = useSelector((state) => state.post.currentPost);
@@ -47,7 +50,7 @@ const PostsPage = ({ removeLike, addLike, isLiked = false }) => {
         <img src={facebook} />
         <p className="line">-</p>
       </div>
-      <div className="reactionButt">
+      <div className="reactionButt1">
         <div className="postStats">
           <p>0 views</p>
           <p>0 comments</p>

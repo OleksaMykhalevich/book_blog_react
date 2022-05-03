@@ -6,9 +6,11 @@ import { Route, Routes } from "react-router-dom";
 import PostsPage from "../../componants/pages/PostsPage";
 import { postsArray } from "../../componants/shared/PostsArray";
 import { useSelector } from "react-redux";
+import { useState } from "react";
 
-export const Main = ({ changeLikeState, likeProductsState, id }) => {
+export const Main = ({ postsArray }) => {
   const post = useSelector((state) => state.post.currentPost);
+
   return (
     <>
       <Routes>
@@ -17,7 +19,7 @@ export const Main = ({ changeLikeState, likeProductsState, id }) => {
         <Route
           exact
           path="/the-book-lover/:title"
-          element={<PostsPage post={post} id={id} />}
+          element={<PostsPage post={post} />}
         />
       </Routes>
     </>

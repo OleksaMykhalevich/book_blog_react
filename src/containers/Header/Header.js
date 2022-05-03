@@ -15,8 +15,10 @@ export const Header = () => {
     <>
       <div className="header">
         <div className="logo">
-          <img alt="logo" src={logo}></img>
-          <h2>T.B.L</h2>
+          <NavLink className={setNavLinkClass} to="/">
+            <img alt="logo" src={logo} />
+            <h2>T.B.L</h2>
+          </NavLink>
         </div>
 
         <div className="position">

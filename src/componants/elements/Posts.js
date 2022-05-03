@@ -20,7 +20,6 @@ const PostsBlog = ({
   image,
   text,
   liked,
-
   removeLike,
   addLike,
   isLiked = false,
